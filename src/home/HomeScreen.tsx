@@ -4,6 +4,7 @@ import { ShoppingCartRounded } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import Screens from "../common/utils/Screen";
 import Carousel from "./components/carousel/Carousel";
+import MaterialCarousel from "./components/carousel/MaterialCarousel";
 
 const HomeScreen = () => {
     return <React.Fragment>
@@ -25,7 +26,9 @@ const HomeScreen = () => {
                 </Link>
             </Stack>
 
-            <Carousel />
+            {/* <Carousel /> */}
+
+            <MaterialCarousel />
         </Container>
     </React.Fragment>
 }
